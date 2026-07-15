@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/EventCard.vue/index.js'
 </script>
 
@@ -13,6 +13,7 @@
         </nav>
       </div>
     </header>
+    <RouterView />
   </div>
 </template>
 
