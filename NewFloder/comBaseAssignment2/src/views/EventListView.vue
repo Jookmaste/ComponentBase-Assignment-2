@@ -11,6 +11,7 @@
     axios
       .get('https://my-json-server.typicode.com/Jookmaste/ComponentBase-Assignment-2/events')
       .then((response) => {
+        events.value = response.data
         console.log(response.data)
       })
       .catch((error) => {
