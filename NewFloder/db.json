@@ -32,6 +32,17 @@
       "time": "11:00",
       "petsAllowed": false,
       "organizer": "Carey Wales"
+    },
+    {
+      "id": 1234567,
+      "category": "Work",
+      "title": "Componentbase",
+      "description": "Work work work",
+      "location": "Home",
+      "date": "July 21, 2026",
+      "time": "19:00",
+      "petsAllowed": false,
+      "organizer": "To"
     }
   ]
 }
