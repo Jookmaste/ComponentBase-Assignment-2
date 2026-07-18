@@ -41,6 +41,7 @@
 </script>
 
 <template>
+  <h1>Event For Good</h1>
   <div class="event">
     <EventCard v-for="event in events" :key="event.id" :event="event" />
     <EventInfo v-for="event in events" :key="event.id" :event="event" />
